@@ -1,1 +1,4 @@
 node_modules/
+
+assets/css/*.css
+assets/css/*.css.map

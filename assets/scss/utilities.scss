@@ -1,0 +1,20 @@
+@use 'variables' as v;
+
+@each $name, $color in v.$theme-colors {
+  .bg-#{$name} {
+    background-color: $color !important;
+  }
+  .text-#{$name} {
+    color: $color !important;
+  }
+  .btn-#{$name} {
+    background-color: $color;
+    color: #fff;
+    border: none;
+  }
+  .btn-outline-#{$name} {
+    background-color: transparent;
+    color: $color;
+    border: 1px solid $color;
+  }
+}

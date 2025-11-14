@@ -1,0 +1,13 @@
+// Променливи (цветове, размери)
+@import 'variables';
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Компоненти
+@import 'header';
+@import 'footer';
+@import 'buttons';
+
+// Глобални стилове
+body {
+  font-family: Arial, sans-serif;
+}

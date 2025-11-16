@@ -4,20 +4,34 @@
   .bg-#{$name} {
     background-color: $color !important;
   }
+
   .text-#{$name} {
     color: $color !important;
   }
+
+  .btn {
+    border-radius: 24px;
+    padding: 8px 20px;
+  }
+
   .btn-#{$name} {
     background-color: $color;
-    color: #fff;
-    border: none;
   }
+
   .btn-outline-#{$name} {
     background-color: transparent;
-    color: $color;
     border: 1px solid $color;
   }
+
   .border-#{name} {
     border-color: $color !important;
+  }
+
+  .text-very-large {
+    font-size: clamp(2.5rem, 6vw, 6rem);
+  }
+
+  .text-large {
+    font-size: clamp(1.8rem, 4vw, 5rem);
   }
 }

@@ -1,11 +1,14 @@
 header {
     position: sticky;
     top: 0;
-    width: 100%;
 }
 
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+.navbar-toggler {
+    border: none;
 }

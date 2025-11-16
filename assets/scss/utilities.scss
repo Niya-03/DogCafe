@@ -12,6 +12,11 @@
     color: #fff;
     border: none;
   }
+  .btn-#{$name}:hover {
+    background-color: #651113;
+    color: #fff;
+    border: none;
+  }
   .btn-outline-#{$name} {
     background-color: transparent;
     color: $color;

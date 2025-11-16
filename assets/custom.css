@@ -1,0 +1,23 @@
+.form-shadow-gray{
+    box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 5%);
+}
+
+.reserve-form-shadow-gray{
+    box-shadow: 0px 0px 3px 4px rgba(155, 29, 32, 31%);
+}
+
+.form-input-size{
+    height: 2rem; 
+    width: 20rem;
+}
+
+.profileBtnWidth{
+    width: 11rem;
+}
+
+/* .btn-red-hover:hover{
+    background-color: #651113;
+    color: white;
+} */
+
+/* #9b1d20 */

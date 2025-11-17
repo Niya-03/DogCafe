@@ -15,9 +15,6 @@
     width: 11rem;
 }
 
-/* .btn-red-hover:hover{
-    background-color: #651113;
-    color: white;
-} */
-
-/* #9b1d20 */
+.form-fit-content{
+    width: fit-content;
+}

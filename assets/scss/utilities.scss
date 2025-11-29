@@ -22,7 +22,7 @@
     border: 1px solid $color;
   }
 
-  .border-#{name} {
+  .border-#{$name} {
     border-color: $color !important;
   }
 

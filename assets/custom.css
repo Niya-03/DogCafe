@@ -141,6 +141,17 @@
     transition: all 0.3s ease-in;
 }
 
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 0.7s ease-out;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 @media screen and (min-width: 990px) {
     .btn-red:hover {
         background-color: #630f10;

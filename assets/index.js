@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 })
 
-async function loadHTML (id, file) {
+async function loadHTML(id, file) {
     const container = document.getElementById(id);
     if (!container) return;
 
@@ -26,3 +26,15 @@ async function loadHTML (id, file) {
 
 loadHTML("headerContainer", "/partials/header.html");
 loadHTML("footerContainer", "/partials/footer.html");
+
+const sections = document.querySelectorAll(".reveal");
+
+const observer = new IntersectionObserver(sections => {
+    sections.forEach(section => {
+        if (section.isIntersecting) {
+            section.target.classList.add("active");
+        }
+    });
+});
+
+sections.forEach(section => observer.observe(section));

@@ -17,6 +17,7 @@
   .btn-#{$name} {
     background-color: $color;
   }
+
   .btn-outline-#{$name} {
     background-color: transparent;
     border: 1px solid $color;

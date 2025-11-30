@@ -1,4 +1,4 @@
-header {
+#headerContainer {
     position: sticky;
     top: 0;
     background-color: #ffffff;
@@ -51,6 +51,7 @@ header {
     border-radius: 20px;
     margin-top: 200px;
     margin-bottom: 60px;
+    transition: all 0.3s ease-in;
 }
 
 .card-image {
@@ -134,6 +135,40 @@ header {
 .menu-card>* {
     position: relative;
     z-index: 1;
+}
+
+#footerContainer .social-icons a {
+    transition: all 0.3s ease-in;
+}
+
+@media screen and (min-width: 990px) {
+    .btn-red:hover {
+        background-color: #630f10;
+    }
+
+    .btn-red:active {
+        box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 8%);
+        background-color: #630f10 !important;
+    }
+
+    .btn-outline-red:hover {
+        background-color: #630f10;
+        color: #ffffff !important;
+    }
+
+    .btn-outline-red:active {
+        box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 8%);
+        background-color: #630f10 !important;
+        color: #ffffff !important;
+    }
+
+    .card:hover {
+        transform: translateY(-5%);
+    }
+
+    #footerContainer .social-icons a:hover {
+        transform: scale(1.1);
+    }
 }
 
 @media screen and (max-width: 989px) {

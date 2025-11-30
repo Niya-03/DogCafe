@@ -15,59 +15,62 @@
 
 <body class="bg-light-gray">
 
-    <div id="headerContainer"></div>
-    <div class="container bg-white border border-white rounded-4 border-2 py-4 px-5 text-center my-5 form-shadow-gray form-fit-content reveal">
+    <div id="headerContainer" class="bg-light-gray"></div>
+    <div
+        class="container bg-white border border-white rounded-4 border-2 py-4 px-5 text-center my-5 form-shadow-gray form-fit-content reveal">
 
         <div class="row">
             <div class="h1 text-black momo-trust-display-regular mb-4">My profile</div>
         </div>
-        <div class="row ms-3 mb-3">
-            <div class="col col-3 text-center pe-0">
-                <img src="../assets/imgs/avatar.svg" class="img-fluid" alt="">
+        <div class="row m-5 text-center">
+            <div class="col-12 col-lg-6 pe-0">
+                <div><img src="../assets/imgs/avatar.svg" class="img-fluid avatar" alt=""></div>
+                <div>
+                    <label class="form-label nuno fw-semibold" for="">Upload profile picture</label>
+                    <input type="file" class="form-control w-50 m-auto">
+                </div>
             </div>
-            <div class="col col-9 align-content-center text-start">
-                <label class="form-label" for="">Upload profile picture</label>
-                <input type="file" class="form-control">
+            <div class="col-12 col-lg-6">
+                <form action="" class="d-flex flex-column">
+                    <div class="mb-3 text-start text-nunito-bold fw-semibold">
+                        <label for="" class="form-label">Name</label>
+                        <input type="text" class="form-control border-dark-grey border-2 formInputSize p-3"
+                            value="John Doe">
+                    </div>
+                    <div class="mb-3 text-start text-nunito-bold fw-semibold">
+                        <label for="" class="form-label">Email</label>
+                        <input type="email" class="form-control border-dark-grey border-2 formInputSize p-3"
+                            value="john@gmail.com">
+                    </div>
+                    <div class="mb-3 text-start text-nunito-bold fw-semibold">
+                        <label for="" class="form-label">Phone</label>
+                        <input type="text" class="form-control border-dark-grey border-2 formInputSize p-3"
+                            value="+359888888888">
+                    </div>
+                    <div class="mb-3 text-start text-nunito-bold fw-semibold">
+                        <label for="" class="form-label">Bio</label>
+                        <textarea name="" class="form-control formInputSize" rows="3"
+                            id="">Big dog lover and coffee drinker</textarea>
+                    </div>
+                    <div class="mb-3 text-start text-nunito-bold fw-semibold">
+                        <label for="" class="form-label">Address</label>
+                        <input type="text" class="form-control border-dark-grey border-2 formInputSize p-3"
+                            value="str. Tsar Osvoboditel 3">
+                    </div>
+                    <div class="mb-3 text-start text-nunito-bold fw-semibold">
+                        <label for="" class="form-label">New password</label>
+                        <input type="password" class="form-control border-dark-grey border-2 formInputSize p-3">
+                    </div>
+                    <div class="mb-3 text-start text-nunito-bold fw-semibold">
+                        <label for="" class="form-label">Repeat new password</label>
+                        <input type="password" class="form-control border-dark-grey border-2 formInputSize p-3">
+                    </div>
+                </form>
             </div>
-        </div>
-        <div class="row justify-content-center">
-            <form action="" class="d-flex flex-column align-items-center">
-                <div class="mb-3 text-start text-nunito-bold fw-semibold">
-                    <label for="" class="form-label">Name</label>
-                    <input type="text" class="form-control border-dark-grey border-2 formInputSize" value="John Doe">
-                </div>
-                <div class="mb-3 text-start text-nunito-bold fw-semibold">
-                    <label for="" class="form-label">Email</label>
-                    <input type="email" class="form-control border-dark-grey border-2 formInputSize"
-                        value="john@gmail.com">
-                </div>
-                <div class="mb-3 text-start text-nunito-bold fw-semibold">
-                    <label for="" class="form-label">Phone</label>
-                    <input type="text" class="form-control border-dark-grey border-2 formInputSize"
-                        value="+359888888888">
-                </div>
-                <div class="mb-3 text-start text-nunito-bold fw-semibold">
-                    <label for="" class="form-label">Bio</label>
-                    <textarea name="" class="form-control formInputSize" rows="3"
-                        id="">Big dog lover and coffee drinker</textarea>
-                </div>
-                <div class="mb-3 text-start text-nunito-bold fw-semibold">
-                    <label for="" class="form-label">Address</label>
-                    <input type="text" class="form-control border-dark-grey border-2 formInputSize"
-                        value="str. Tsar Osvoboditel 3">
-                </div>
-                <div class="mb-3 text-start text-nunito-bold fw-semibold">
-                    <label for="" class="form-label">New password</label>
-                    <input type="password" class="form-control border-dark-grey border-2 formInputSize">
-                </div>
-                <div class="mb-3 text-start text-nunito-bold fw-semibold">
-                    <label for="" class="form-label">Repeat new password</label>
-                    <input type="password" class="form-control border-dark-grey border-2 formInputSize">
-                </div>
-            </form>
         </div>
         <div class="row mt-3 justify-content-center">
-            <button class="btn btn-red rounded-pill mb-3 text-nunito-regular profileBtnWidth">Save changes</button>
+            <button class="btn btn-red rounded-pill mb-3 text-nunito-regular profileBtnWidth text-white">Save
+                changes</button>
         </div>
 
     </div>
@@ -76,7 +79,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/index.js"></script>
+    <script type="module" src="/assets/index.js"></script>
 </body>
 
 </html>

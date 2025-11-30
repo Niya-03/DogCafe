@@ -19,6 +19,18 @@
 
 .form-input-size {
     height: 2rem;
+}
+
+.formShadowGray {
+    box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 5%);
+}
+
+.reserveFormShadowGray {
+    box-shadow: 0px 0px 3px 4px rgba(155, 29, 32, 31%);
+}
+
+.formInputSize {
+    height: 2rem;
     width: 20rem;
 }
 
@@ -150,6 +162,23 @@
 .reveal.active {
     opacity: 1;
     transform: translateY(0);
+}
+
+.formFitContent {
+    width: fit-content;
+}
+
+.marqueImg {
+    width: 4rem;
+    rotate: 30deg;
+}
+
+.textWrap {
+    text-wrap: balance;
+}
+
+.marqueTextSize {
+    font-size: 1.3rem;
 }
 
 @media screen and (min-width: 990px) {

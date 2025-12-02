@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>DogCafe</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/custom.css">
+</head>
+
+<body>
+
+    <div id="headerContainer"></div>
+
+    <section class="menu reveal">
+
+        <div class="container my-5">
+
+            <div class="row mb-5">
+                <div class="text-red text-center display-5 momo-trust-display-regular">
+                    Menu
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-lg-row gap-4">
+                <div class="menu-card col-lg-6 col bg-light-gray border border-2 border-red rounded-4 p-5 position-relative">
+                    <div class="menu-bg-beans"></div>
+                    <div class="text-red text-center h2 momo-trust-display-regular pb-4">
+                        Brews
+                    </div>
+                    <div class="row flex-row">
+                        <div class="col-6 text-start border-end border-3 border-dark-gray pe-3">
+                            <div class="text-red h4 momo-trust-display-regular pb-3">Coffee</div>
+                            <div class="d-flex flex-column nunito-regular">
+                                <div class="d-flex"><span>Espresso</span><span class="ms-auto">$5</span></div>
+                                <div class="d-flex"><span>Cappucinno</span><span class="ms-auto">$5</span></div>
+                                <div class="d-flex"><span>Latte</span><span class="ms-auto">$5</span></div>
+                                <div class="d-flex"><span>Americano</span><span class="ms-auto">$5</span></div>
+                                <div class="d-flex"><span>Puppacino</span><span class="ms-auto">$5</span></div>
+                            </div>
+                        </div>
+                        <div class="col-6 text-start ps-3">
+                            <div class="text-red h4 momo-trust-display-regular pb-3">Tea</div>
+                            <div class="d-flex flex-column nunito-regular">
+                                <div class="d-flex"><span>Green</span><span class="ms-auto">$5</span></div>
+                                <div class="d-flex"><span>Black</span><span class="ms-auto">$5</span></div>
+                                <div class="d-flex"><span>Jasmine</span><span class="ms-auto">$5</span></div>
+                                <div class="d-flex"><span>Camomile</span><span class="ms-auto">$5</span></div>
+                                <div class="d-flex"><span>Forest</span><span class="ms-auto">$5</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-6 text-start">
+                            <div class="text-red h4 momo-trust-display-regular pb-3">Non-Coffee</div>
+                            <div class="d-flex flex-column nunito-regular">
+                                <div class="d-flex"><span>Hot choco</span><span class="ms-auto">$5</span></div>
+                                <div class="d-flex"><span>Lemonade</span><span class="ms-auto">$5</span></div>
+                                <div class="d-flex"><span>Smoothie</span><span class="ms-auto">$5</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-bg-paws"></div>
+                </div>
+                <div class="menu-card col-lg-6 col bg-light-gray border border-2 border-red rounded-4 p-5 position-relative">
+                    <div class="menu-bg-beans"></div>
+                    <div class="text-red text-center h2 momo-trust-display-regular pb-4">
+                        Brunch
+                    </div>
+                    <div class="row flex-row">
+                        <div class="col-6 text-start border-end border-3 border-dark-gray pe-3">
+                            <div class="text-red h4 momo-trust-display-regular pb-3">Toast</div>
+                            <div class="d-flex flex-column nunito-regular">
+                                <div class="d-flex"><span>Avocado</span><span class="ms-auto">$5</span></div>
+                                <div class="d-flex"><span>Eggs & toast</span><span class="ms-auto">$5</span></div>
+                                <div class="d-flex"><span>Peanut butter</span><span class="ms-auto">$5</span></div>
+                                <div class="d-flex"><span>Nutella</span><span class="ms-auto">$5</span></div>
+                                <div class="d-flex"><span>Fruit jam</span><span class="ms-auto">$5</span></div>
+                            </div>
+                        </div>
+                        <div class="col-6 text-start ps-3">
+                            <div class="text-red h4 momo-trust-display-regular pb-3">Pastries</div>
+                            <div class="d-flex flex-column nunito-regular">
+                                <div class="d-flex"><span>Croissant</span><span class="ms-auto">$5</span></div>
+                                <div class="d-flex"><span>Danish</span><span class="ms-auto">$5</span></div>
+                                <div class="d-flex"><span>Pain au choco</span><span class="ms-auto">$5</span></div>
+                                <div class="d-flex"><span>Kiflichka</span><span class="ms-auto">$5</span></div>
+                                <div class="d-flex"><span>Banica</span><span class="ms-auto">$5</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-6 text-start">
+                            <div class="text-red h4 momo-trust-display-regular pb-3">Soup</div>
+                            <div class="d-flex flex-column nunito-regular">
+                                <div class="d-flex"><span>Chicken</span><span class="ms-auto">$5</span></div>
+                                <div class="d-flex"><span>Cream</span><span class="ms-auto">$5</span></div>
+                                <div class="d-flex"><span>Pho</span><span class="ms-auto">$5</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-bg-paws"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footerContainer"></div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script type="module" src="../assets/index.js"></script>
+</body>
+
+</html>

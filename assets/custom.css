@@ -1,33 +1,246 @@
-.formShadowGray{
+#headerContainer {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 10;
+}
+
+#footerContainer {
+    margin-top: auto;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.form-shadow-gray {
     box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 5%);
 }
 
-.reserveFormShadowGray{
+.reserve-form-shadow-gray {
     box-shadow: 0px 0px 3px 4px rgba(155, 29, 32, 31%);
 }
 
-.formInputSize{
-    height: 2rem; 
-    width: 20rem;
+.form-input-size {
+    height: 2rem;
 }
 
-.profileBtnWidth{
+.formShadowGray {
+    box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 5%);
+}
+
+.reserveFormShadowGray {
+    box-shadow: 0px 0px 3px 4px rgba(155, 29, 32, 31%);
+}
+
+.formInputSize {
+    height: 2rem;
+    max-width: 100%;
+}
+
+.profileBtnWidth {
     width: 11rem;
 }
 
-.formFitContent{
+.swiper {
+    height: 100%;
+    width: auto;
+    padding-left: 80px;
+}
+
+.swiper-wrapper {
+    width: max-content !important;
+}
+
+.swiper-slide {
+    min-width: 350px;
+    width: fit-content !important;
+}
+
+
+.card {
+    position: relative;
+    padding-top: 80px;
+    max-width: 260px;
+    max-height: 300px;
+    border-color: white;
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-bottom: 60px;
+    transition: all 0.3s ease-in;
+}
+
+.card-image {
+    position: absolute;
+    top: -150px;
+    left: -10%;
+    height: 220px;
+    width: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.card-title {
+    text-align: center;
+    border-bottom: 1px solid #9b1d20;
+}
+
+.card-body {
+    text-align: center;
+    padding: 15px 30px 30px 30px;
+}
+
+.card-text {
+    text-align: left;
+}
+
+.swiper-button-next svg,
+.swiper-button-prev svg {
+    display: none;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: #D9D9D9;
+    border-radius: 8px;
+    width: 35px;
+    height: 35px;
+    color: black;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 15px;
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+    opacity: 0;
+}
+
+.menu-bg-beans {
+    position: absolute !important;
+    top: 5%;
+    left: 5%;
+    width: 70px;
+    height: 70px;
+    background-image: url('/assets/imgs/beans.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.25;
+    z-index: 0;
+}
+
+.menu-bg-paws {
+    position: absolute !important;
+    top: 80%;
+    left: 80%;
+    width: 70px;
+    height: 70px;
+    background-image: url('/assets/imgs/paws_brown.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.25;
+    z-index: 0;
+}
+
+.menu-card {
+    position: relative;
+}
+
+.menu-card>* {
+    position: relative;
+    z-index: 1;
+}
+
+#footerContainer .social-icons a {
+    transition: all 0.3s ease-in;
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 0.7s ease-out;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.formFitContent {
     width: fit-content;
 }
 
-.marqueImg{
+.marqueImg {
     width: 4rem;
     rotate: 30deg;
 }
 
-.textWrap{
+.textWrap {
     text-wrap: balance;
 }
 
-.marqueTextSize{
+.marqueTextSize {
     font-size: 1.3rem;
+}
+
+.avatar {
+    max-height: 150px;
+    max-width: 150px;
+}
+
+@media screen and (min-width: 990px) {
+    .btn-red:hover {
+        background-color: #630f10;
+    }
+
+    .btn-red:active {
+        box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 8%);
+        background-color: #630f10 !important;
+    }
+
+    .btn-outline-red:hover {
+        background-color: #630f10;
+        color: #ffffff !important;
+    }
+
+    .btn-outline-red:active {
+        box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 8%);
+        background-color: #630f10 !important;
+        color: #ffffff !important;
+    }
+
+    .card:hover {
+        transform: translateY(-5%);
+    }
+
+    #footerContainer .social-icons a:hover {
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (max-width: 989px) {
+    .swiper {
+        padding-left: 0;
+    }
+
+    .card {
+        margin-left: 75px;
+        max-height: 250px;
+        padding-top: 50px;
+    }
+
+    .card-image {
+        height: 200px;
+        width: 220px;
+    }
+
+    .card-body {
+        padding: 10px 25px 20px 25px;
+    }
+
+    .img-about-us {
+        max-height: 150px;
+    }
 }

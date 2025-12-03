@@ -190,6 +190,10 @@
     max-width: 150px;
 }
 
+.menu-section {
+    transition: 0.7s ease-out;
+}
+
 @media screen and (min-width: 990px) {
     .btn-red:hover {
         background-color: #630f10;
@@ -218,6 +222,10 @@
     #footerContainer .social-icons a:hover {
         transform: scale(1.1);
     }
+
+    .menu-section:hover {
+        transform: scale(1.1);
+    }
 }
 
 @media screen and (max-width: 989px) {
@@ -242,5 +250,9 @@
 
     .img-about-us {
         max-height: 150px;
+    }
+
+    .marqueTextSize {
+        font-size: 1rem;
     }
 }

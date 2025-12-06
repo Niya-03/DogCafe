@@ -32,8 +32,8 @@ async function loadHTML(id, file) {
 
 loadHTML("headerContainer", "../partials/header.html");
 loadHTML("footerContainer", "../partials/footer.html");
-loadHTML("marqueeTop", "../partials/marquee.html");
-loadHTML("marqueeBottom", "../partials/marquee.html");
+loadHTML("marqueeTop", "./partials/marquee.html");
+loadHTML("marqueeBottom", "./partials/marquee.html");
 
 const sections = document.querySelectorAll(".reveal");
 

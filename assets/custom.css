@@ -1,7 +1,6 @@
-#headerContainer {
+.header {
     position: sticky;
     top: 0;
-    background-color: #ffffff;
     z-index: 10;
 }
 
@@ -124,7 +123,7 @@
     left: 5%;
     width: 70px;
     height: 70px;
-    background-image: url('/assets/imgs/beans.png');
+    background-image: url('./imgs/beans.png');
     background-size: cover;
     background-position: center;
     opacity: 0.25;
@@ -137,7 +136,7 @@
     left: 80%;
     width: 70px;
     height: 70px;
-    background-image: url('/assets/imgs/paws_brown.png');
+    background-image: url('./imgs/paws_brown.png');
     background-size: cover;
     background-position: center;
     opacity: 0.25;
@@ -192,6 +191,10 @@
 
 .menu-section {
     transition: 0.7s ease-out;
+}
+
+.logoSize{
+    width: 5rem;
 }
 
 @media screen and (min-width: 990px) {
@@ -253,6 +256,14 @@
     }
 
     .marqueTextSize {
-        font-size: 1rem;
+        font-size: 0.85rem;
+    }
+
+    .marqueImg {
+        width: 2.5rem;
+    }
+
+    .logoSize {
+        width: 4rem;
     }
 }

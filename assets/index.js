@@ -1,4 +1,4 @@
-// import Swiper from "../node_modules/swiper/swiper-bundle.min.mjs";
+
 
 document.addEventListener("DOMContentLoaded", () => {
     const swiper = new Swiper('.swiper', {

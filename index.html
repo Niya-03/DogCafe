@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-    <title>DogCafe</title>
+    <title>Pup & Brew</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
     </style>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/custom.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/custom.css">
 </head>
 
 <body>
@@ -33,22 +33,22 @@
                         Where community, coffee, and canines meet.
                     </div>
                     <div class="nunito-regular fs-lg-4 fs-5">
-                        <button class="btn btn-red text-white fs-5">Reserve</button>
-                        <button class="btn btn-outline-red text-black fs-5">Menu</button>
+                        <a class="btn btn-red text-white fs-5" href="../pages/reserve.html">Reserve</a>
+                        <a class="btn btn-outline-red text-black fs-5" href="../pages/menu.html">Menu</a>
                     </div>
                 </div>
 
                 <div class="col-lg-8 col">
-                    <img src="/assets/imgs/dog-desktop.png" class="img-fluid d-lg-inline-block d-none"
+                    <img src="./assets/imgs/dog-desktop.png" class="img-fluid d-lg-inline-block d-none"
                         alt="Dog for Desktop">
-                    <img src="/assets/imgs/hero-mobile.png" class="img-fluid d-inline-block d-lg-none cropped-img"
+                    <img src="./assets/imgs/hero-mobile.png" class="img-fluid d-inline-block d-lg-none cropped-img"
                         alt="Dog for Mobile">
                 </div>
 
             </div>
         </div>
     </section>
-    <div id="marqueeContainer" class="reveal"></div>
+    <div id="marqueeTop" class="reveal" data-bg="red"></div>
 
     <section class="about-us bg-light-gray reveal">
         <div class="container py-5">
@@ -58,14 +58,14 @@
                 <div class="col col-lg-5 
                         d-flex justify-content-center
                         ">
-                    <img src="/assets/imgs/dog-about-us.png" class="img-fluid d-lg-inline-block d-none"
+                    <img src="./assets/imgs/dog-about-us.png" class="img-fluid d-lg-inline-block d-none"
                         alt="Dog for About us Desktop">
                 </div>
                 <div class="col col-lg-7 
                         order-1 order-lg-2 
                         text-start">
                     <div class="px-5 nunito-regular">
-                        <img src="/assets/imgs/dog-mobile.png"
+                        <img src="./assets/imgs/dog-mobile.png"
                             class="img-fluid d-lg-none img-about-us float-end me-3 mb-2" alt="Dog for about us Mobile">
                         <div class="fs-5 pb-4">
                             We are a coffee shop with a passion not only for good coffee but also for dogs and making
@@ -94,7 +94,7 @@
         <div class="swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="card"><img class="card-image img-fluid" src="/assets/imgs/cari.jpg" alt="Cari">
+                    <div class="card"><img class="card-image img-fluid" src="./assets/imgs/cari-2.jpg" alt="Cari">
                         <div class="card-body nunito-regular">
                             <h5 class="card-title fs-2 nunito-bold">Cari</h5>
                             <p class="card-text fs-6"><span class="nunito-bold fs-6">Hobbies include:</span> Invading
@@ -103,38 +103,50 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="card"><img class="card-image img-fluid" src="/assets/imgs/cari.jpg" alt="Cari">
+                    <div class="card"><img class="card-image img-fluid" src="./assets/imgs/mark.png" alt="Cari">
                         <div class="card-body nunito-regular">
-                            <h5 class="card-title fs-2 nunito-bold">Cari</h5>
-                            <p class="card-text fs-6"><span class="nunito-bold fs-6">Hobbies include:</span> Invading
-                                personal space, licking faces, stealing socks</p>
+                            <h5 class="card-title fs-2 nunito-bold">Mark</h5>
+                            <p class="card-text fs-6"><span class="nunito-bold fs-6">Hobbies include:</span> Waging tail, fetching balls, sleeping on blankies</p>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="card"><img class="card-image img-fluid" src="/assets/imgs/cari.jpg" alt="Cari">
+                    <div class="card"><img class="card-image img-fluid" src="./assets/imgs/jack.png" alt="Cari">
                         <div class="card-body nunito-regular">
-                            <h5 class="card-title fs-2 nunito-bold">Cari</h5>
-                            <p class="card-text fs-6"><span class="nunito-bold fs-6">Hobbies include:</span> Invading
-                                personal space, licking faces, stealing socks</p>
+                            <h5 class="card-title fs-2 nunito-bold">Jack</h5>
+                            <p class="card-text fs-6"><span class="nunito-bold fs-6">Hobbies include:</span> Growling, shyly sleeping next to you, fetching 'topche'</p>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="card"><img class="card-image img-fluid" src="/assets/imgs/cari.jpg" alt="Cari">
+                    <div class="card"><img class="card-image img-fluid" src="./assets/imgs/stormi.jpg" alt="Cari">
                         <div class="card-body nunito-regular">
-                            <h5 class="card-title fs-2 nunito-bold">Cari</h5>
-                            <p class="card-text fs-6"><span class="nunito-bold fs-6">Hobbies include:</span> Invading
-                                personal space, licking faces, stealing socks</p>
+                            <h5 class="card-title fs-2 nunito-bold">Stormi</h5>
+                            <p class="card-text fs-6"><span class="nunito-bold fs-6">Hobbies include:</span> Attacking jack, hopping around, destroying tedyd bears</p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="swiper-slide">
+                    <div class="card"><img class="card-image img-fluid" src="./assets/imgs/dinozawyr.jpg" alt="Cari">
+                        <div class="card-body nunito-regular">
+                            <h5 class="card-title fs-2 nunito-bold">Dinosaur</h5>
+                            <p class="card-text fs-6"><span class="nunito-bold fs-6">Hobbies include:</span> Chewing, Destroying, Breaking ankles</p>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="card"><img class="card-image img-fluid" src="/assets/imgs/cari.jpg" alt="Cari">
+                    <div class="card"><img class="card-image img-fluid" src="./assets/imgs/meivi.jpg" alt="Cari">
                         <div class="card-body nunito-regular">
-                            <h5 class="card-title fs-2 nunito-bold">Cari</h5>
-                            <p class="card-text fs-6"><span class="nunito-bold fs-6">Hobbies include:</span> Invading
-                                personal space, licking faces, stealing socks</p>
+                            <h5 class="card-title fs-2 nunito-bold">Meivi</h5>
+                            <p class="card-text fs-6"><span class="nunito-bold fs-6">Hobbies include:</span> Popcorn, Long walks, Treats, Jumping on couches</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card"><img class="card-image img-fluid" src="./assets/imgs/gremlin.jpg" alt="Cari">
+                        <div class="card-body nunito-regular">
+                            <h5 class="card-title fs-2 nunito-bold">Gremlin</h5>
+                            <p class="card-text fs-6"><span class="nunito-bold fs-6">Hobbies include:</span> Rain, Mud, Dirt, Thunder, Baths after storms</p>
                         </div>
                     </div>
                 </div>
@@ -146,7 +158,7 @@
         </div>
     </section>
 
-    <div id="marqueeContainer"></div>
+    <div id="marqueeBottom" data-bg="yellow"></div>
     <div id="footerContainer"></div>
 
 

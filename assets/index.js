@@ -1,5 +1,3 @@
-
-
 document.addEventListener("DOMContentLoaded", () => {
     const swiper = new Swiper('.swiper', {
         slidesPerView: 'auto',

@@ -5,7 +5,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes">
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <title>My Profile</title>
     <link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Nunito:wght@400;700&display=swap"
@@ -26,58 +26,58 @@
 <body class="bg-light-gray">
 
     <div id="headerContainer" class="bg-light-gray"></div>
-
-    <div
-        class="container bg-white border border-white rounded-4 border-2 py-4 px-5 text-center my-5 form-shadow-gray formFitContent reveal">
-        <div class="row">
-            <div class="h1 text-black momo-trust-display-regular mb-4">My profile</div>
-        </div>
-        <div class="row mb-3">
-            <div class="col-12 col-lg-6 text-center">
-                <div><img src="../assets/imgs/avatar.svg" class="img-fluid avatar" alt=""></div>
-                <div class="py-4 h2 text-center">
-                    John Doe
+    <main>
+        <div
+            class="container bg-white border border-white rounded-4 border-2 py-4 px-5 text-center my-5 form-shadow-gray formFitContent reveal">
+            <div class="row">
+                <div class="h1 text-black momo-trust-display-regular mb-4">My profile</div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 col-lg-6 text-center">
+                    <div><img src="../assets/imgs/avatar.svg" class="img-fluid avatar" alt="Avatar image"></div>
+                    <div class="py-4 h2 text-center">
+                        John Doe
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 justify-content-center">
+                    <form action="" class="d-flex flex-column">
+                        <div class="mb-3 text-start text-nunito-bold fw-semibold">
+                            <label for="profile-name" class="form-label">Name</label>
+                            <input type="text" class="form-control border-dark-grey border-2 formInputSize p-3" disabled
+                                value="John Doe" id="profile-name">
+                        </div>
+                        <div class="mb-3 text-start text-nunito-bold fw-semibold">
+                            <label for="profile-email" class="form-label">Email</label>
+                            <input type="email" class="form-control border-dark-grey border-2 formInputSize p-3"
+                                disabled value="john@gmail.com" id="profile-email">
+                        </div>
+                        <div class="mb-3 text-start text-nunito-bold fw-semibold">
+                            <label for="profile-phone" class="form-label">Phone</label>
+                            <input type="text" class="form-control border-dark-grey border-2 formInputSize p-3" disabled
+                                value="+359888888888" id="profile-phone">
+                        </div>
+                        <div class="mb-3 text-start text-nunito-bold fw-semibold">
+                            <label for="profile-bio" class="form-label">Bio</label>
+                            <input type="text" class="form-control border-dark-grey border-2 formInputSize p-3" disabled
+                                value="Big dog lover and coffee drinker" id="profile-bio">
+                        </div>
+                        <div class="mb-3 text-start text-nunito-bold fw-semibold">
+                            <label for="profile-address" class="form-label">Address</label>
+                            <input type="text" class="form-control border-dark-grey border-2 formInputSize p-3" disabled
+                                value="str. Tsar Osvoboditel 3" id="profile-address">
+                        </div>
+                    </form>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 justify-content-center">
-                <form action="" class="d-flex flex-column">
-                    <div class="mb-3 text-start text-nunito-bold fw-semibold">
-                        <label for="" class="form-label">Name</label>
-                        <input type="text" class="form-control border-dark-grey border-2 formInputSize p-3" disabled
-                            value="John Doe">
-                    </div>
-                    <div class="mb-3 text-start text-nunito-bold fw-semibold">
-                        <label for="" class="form-label">Email</label>
-                        <input type="email" class="form-control border-dark-grey border-2 formInputSize p-3" disabled
-                            value="john@gmail.com">
-                    </div>
-                    <div class="mb-3 text-start text-nunito-bold fw-semibold">
-                        <label for="" class="form-label">Phone</label>
-                        <input type="text" class="form-control border-dark-grey border-2 formInputSize p-3" disabled
-                            value="+359888888888">
-                    </div>
-                    <div class="mb-3 text-start text-nunito-bold fw-semibold">
-                        <label for="" class="form-label">Bio</label>
-                        <input type="text" class="form-control border-dark-grey border-2 formInputSize p-3" disabled
-                            value="Big dog lover and coffee drinker">
-                    </div>
-                    <div class="mb-3 text-start text-nunito-bold fw-semibold">
-                        <label for="" class="form-label">Address</label>
-                        <input type="text" class="form-control border-dark-grey border-2 formInputSize p-3" disabled
-                            value="str. Tsar Osvoboditel 3">
-                    </div>
-                </form>
+
+            <div class="row mt-4 justify-content-center">
+                <a class="btn btn-red btn-red-hover rounded-pill mb-3 text-nunito-regular profileBtnWidth text-white"
+                    href="./editProfile.html">Edit
+                    profile</a>
             </div>
+
         </div>
-
-        <div class="row mt-4 justify-content-center">
-            <a
-                class="btn btn-red btn-red-hover rounded-pill mb-3 text-nunito-regular profileBtnWidth text-white" href="./editProfile.html">Edit
-                profile</a>
-        </div>
-
-    </div>
-
+    </main>
     <div id="footerContainer"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>

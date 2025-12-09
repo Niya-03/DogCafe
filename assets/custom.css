@@ -197,6 +197,11 @@
     width: 5rem;
 }
 
+img.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
 @media screen and (min-width: 990px) {
     .btn-red:hover {
         background-color: #630f10;
@@ -268,6 +273,12 @@
     }
 
     .loginPage {
-    min-height: 50vh;
+        min-height: 50vh;
+    }
+
+    .hero-img-mobile {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
     }
 }

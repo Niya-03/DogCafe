@@ -193,7 +193,7 @@
     transition: 0.7s ease-out;
 }
 
-.logoSize{
+.logoSize {
     width: 5rem;
 }
 
@@ -265,5 +265,10 @@
 
     .logoSize {
         width: 4rem;
+    }
+
+    main,
+    body {
+        padding-bottom: 180px;
     }
 }

@@ -4,8 +4,8 @@
     z-index: 10;
 }
 
-.footer {
-    margin-top: auto;
+.loginPage {
+    min-height: 70vh;
 }
 
 .navbar-toggler {
@@ -267,8 +267,7 @@
         width: 4rem;
     }
 
-    main,
-    body {
-        padding-bottom: 180px;
+    .loginPage {
+    min-height: 50vh;
     }
 }
